@@ -185,8 +185,8 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 	$zerif_aboutus_show = get_theme_mod('zerif_aboutus_show');
 
 	if( isset($zerif_aboutus_show) && $zerif_aboutus_show != 1 ):
-
 		get_template_part( 'sections/about_us' );
+
 
 	endif;
 
