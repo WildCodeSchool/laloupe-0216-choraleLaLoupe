@@ -1,0 +1,13 @@
+/*
+Theme Name: Chorale
+Description: Thème
+Author: WCS
+Author URI: http://www.google.com
+Version: 1.0.0
+Template: zerif-lite
+*/
+
+
+@import url("../zerif-lite/style.css");
+@import url("./style-laurane.css");
+

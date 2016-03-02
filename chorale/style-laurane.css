@@ -1,0 +1,116 @@
+body {
+    background-color: #333333;
+}
+@media (max-width: 768px){.intro-text 
+    font-size: 55px;
+    padding-bottom: -200px;
+}
+.buttons
+{
+    padding-bottom: 250px;
+}
+.wp-notes-widget{
+    display: inline-block;
+    float: right;
+    text-align: left;
+    width: 62%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+@media (max-width: 768px){.wp-notes-widget{
+    width: 100%;}
+}
+.calendar_main, .feedback-box
+{
+    width: 33%;
+    display: inline-block;
+    border: 2px solid #050505;
+    background: #dddddd;
+    border-radius: 4px;
+    vertical-align: top;
+    margin-top: 12px;
+    height: 450px;
+    margin-left: 10px;
+}
+@media (max-width: 768px){.calendar_main,.feedback-box{
+    width: 100%;}
+}
+.ecwd_calendar td {
+    font-family: sans-serif !important;
+}
+.widgettitle {
+    display: none;
+}
+.message strong:before {
+    content:"\f001 ";
+    font: normal normal normal 14px/1 FontAwesome;
+}
+#testimonials{
+    background-color: #008080;
+    background-image: url("notes.png");
+    background-repeat: repeat-x;
+    background-position: top left;
+}
+.textwidget {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    background-color: white;
+    color: gray;
+}
+
+a.zerif-copyright{ color : #e96656
+!important;}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+#team{
+    background-color: #D7DCDE;
+}
+#focus{
+    background-color: #84888A;
+}
+#focus p
+{
+    color: white;
+    font-size: 15px;
+}
+.pixeden
+{
+    background-size: 150%!important;
+}
+
+#focus h3 {
+    color: white;
+}
+
+.white-text { 
+
+font-size: 20px;
+ }
+
+ .focus-box .service-icon {
+    width:100%;
+    min-width:250px;
+    height:250px;
+}
+
+#site-navigation{
+    margin:auto;
+}
+ #site-navigation {
+     height: 1px;
+    float:left;
+    clear:both;
+    margin-right: auto;
+    margin-left: 21%;
+}
+
+#client-feedbacks ul {
+    display: none;
+}
